@@ -1,14 +1,13 @@
 import java.util.*;
-class Pro{
+class Pat{
     public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
+        Scanner sc= new Scanner(System.in);
         int n;
         n=sc.nextInt();
-        while(n!=0){
-            for(int i=1;i<=n;i++){
-                System.out.printf("%d",i);
+        for(int j=0;j<n;j++){
+            for(int i=n;i>=1;i--){
+                System.out.printf("%d ",i);
             }
-            n--;
             System.out.printf("
 ");
         }
