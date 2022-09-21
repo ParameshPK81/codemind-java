@@ -5,8 +5,8 @@ class Pat{
         int n;
         n=sc.nextInt();
         for(int i=1;i<=n;i++){
-            for(int j=1;j<=i;j++){
-                System.out.printf("%d",j);
+            for(int j=1;j<=n;j++){
+                System.out.printf("%c ",(char)(64+i));
             }
             System.out.printf("
 ");
